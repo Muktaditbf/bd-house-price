@@ -2,7 +2,7 @@
 
 Put `house_price_bd.csv` in this folder. It is not committed to the repository.
 
-The file has 3,865 property listings (scraped from bproperty.com) with these columns:
+The file has 3,865 Bangladeshi property listings with these columns:
 
 | Column | Example |
 |---|---|
