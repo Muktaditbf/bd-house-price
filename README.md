@@ -160,7 +160,7 @@ numbers. All models use `random_state=42`, so results are reproducible.
 ├── house_price.ipynb     cleaning · training · evaluation · prediction (executed)
 ├── data/                 put house_price_bd.csv here (not committed) + column guide
 ├── images/               charts used in this README
-├── docs/                 logo (icon.svg source + icon.png)
+├── docs/                 logo and social preview (SVG sources + PNG)
 ├── requirements.txt
 └── LICENSE
 ```

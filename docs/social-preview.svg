@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d7a5a"/><stop offset="1" stop-color="#053a2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1130" cy="110" r="260" fill="#fff" opacity="0.04"/>
+  <circle cx="1210" cy="560" r="180" fill="#fff" opacity="0.04"/>
+
+  <g transform="translate(96 112) scale(0.42)">
+    <rect x="16" y="16" width="480" height="480" rx="112" fill="#fff" opacity="0.12"/>
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M96 254 L256 114 L416 254" stroke-width="38"/>
+      <path d="M144 220 V404 H368 V220" stroke-width="38"/>
+      <path d="M190 352 L238 304 L274 332 L326 276" stroke-width="30"/>
+      <path d="M290 274 H328 V312" stroke-width="30"/>
+    </g>
+  </g>
+
+  <g font-family="Fira Sans" fill="#fff">
+    <text x="340" y="178" font-size="40" font-weight="500" opacity="0.8">Bangladesh</text>
+    <text x="340" y="250" font-size="72" font-weight="800">House Price Prediction</text>
+    <text x="96" y="352" font-size="32" opacity="0.88">Estimate what a flat, plot or shop should cost, within about 15%.</text>
+
+    <g font-size="26" font-weight="600">
+      <rect x="96" y="404" width="230" height="64" rx="32" fill="#fff" opacity="0.14"/>
+      <text x="211" y="445" text-anchor="middle">15.1% avg. error</text>
+      <rect x="344" y="404" width="170" height="64" rx="32" fill="#fff" opacity="0.14"/>
+      <text x="429" y="445" text-anchor="middle">R² 0.821</text>
+      <rect x="532" y="404" width="160" height="64" rx="32" fill="#fff" opacity="0.14"/>
+      <text x="612" y="445" text-anchor="middle">5 cities</text>
+      <rect x="710" y="404" width="236" height="64" rx="32" fill="#fff" opacity="0.14"/>
+      <text x="828" y="445" text-anchor="middle">2,787 listings</text>
+    </g>
+
+    <text x="96" y="560" font-size="24" opacity="0.7">Python · scikit-learn · pandas</text>
+    <text x="1184" y="560" font-size="24" opacity="0.7" text-anchor="end">github.com/Muktaditbf/bd-house-price</text>
+  </g>
+</svg>
