@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/icon.png" width="84" alt="Bangladesh House Price logo">
+
 # Bangladesh House Price Prediction
 
 **Estimate what a flat, plot or shop in Bangladesh should cost — in taka, within about 15%.**
@@ -158,6 +160,7 @@ numbers. All models use `random_state=42`, so results are reproducible.
 ├── house_price.ipynb     cleaning · training · evaluation · prediction (executed)
 ├── data/                 put house_price_bd.csv here (not committed) + column guide
 ├── images/               charts used in this README
+├── docs/                 logo (icon.svg source + icon.png)
 ├── requirements.txt
 └── LICENSE
 ```
